@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+html {
+    font-size: 100%;
+}
+
+body {
+    background: #fffbef;
+    color: #000;
+}
+
+ul {
+    list-style: none;
+}
+
