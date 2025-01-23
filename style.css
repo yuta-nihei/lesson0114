@@ -58,3 +58,21 @@ ul {
     transform: translateY(-50%) rotate(90deg);
     transition: 0.5s;
 }
+
+.ac-menu .label.open {
+    background: #ffda5f;
+}
+
+.ac-menu .label.open::before {
+    opacity: 0;
+}
+
+.ac-menu .label.open::after {
+    transform: rotate(180deg);
+}
+
+.ac-menu .detail {
+    border-top: 1px solid #ccc;
+    padding: 35px 30px;
+    display: none;
+}
